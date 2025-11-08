@@ -89,7 +89,7 @@ public class CommonConfig {
 
         return redisEmbeddingStore;
     }
-    //向量数据库检索对象EmbeddingSotreContentRetriever
+    //向量数据库检索对象EmbeddingStoreContentRetriever
     @Bean
     public ContentRetriever contentRetriever(){
         return EmbeddingStoreContentRetriever.builder()
